@@ -1,150 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
-
-#home{
-    background-image: url('../img/kepek/asztal-min.jpg');
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-}
-#home .intro{
-    color: white;
-    height: 100vh;
-}
-#home .intro .col-md-8{
-    background-color: rgba(0,0,0,0.4);
-}
-#home >h1{
-    color:white;
-}
-
-body{
-    background-color: #F6C273;
-}
-.container{
-    
-}
-
-h1{
-    color: #FFFFFF;
-    text-align: center;
-    font-family: 'Mooli', sans-serif;
-}
-#lathatatlan{
-    color: #F6C273;
-}
-h5{
-    
-    text-align: center;
-
-    font-variant: small-caps;
-}
-nav{
-    background-color: #A04809;
-}
-
-footer{
-    background-color: #A04809;
-    color: white;
-}
-
-.card{
-    border: 2px solid green;
-}
-.card-title{
-
-}
-.ikon{
-    width: 35px;
-}
-.ikon2{
-    width: 25px;
-}
 .banner{
-    background-image: url(../img/kepek/banner-min.jpg);
-    height: 500px;
+    background-image: url(../img/banner.jpg);
+    height: 400px;
     background-position: center center;
     background-size: cover;
+    
 }
-footer >li{
+.center {
+    margin: auto;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.394);
+    padding: 50px;
+    color: black;
+    text-align: center;
+}
+.carousel-caption
+{
+    background-color: rgba(255, 255, 255, 0.394);
+}
+.carouselimg{
+    height: 400px;
+}
+footer{
+    background-color: #797575;
+    height: 150px;
+    padding-top: 20px;
+}
+footer li{
+    color: white;
     list-style-type: none;
 }
-
-footer li>img{
-    margin-right: 15px;
+.footerimg{
+    height: 27px;
 }
-.input-group-text{
-    background-color: green;
-    color: white;
-    font-weight: bold;
-    border: 2px solid white;
-}
-.modal-header, .modal-footer{
-    background-color: #A04809;
-}
-.modal-body{
-    background-color: #F6C273;
-
-}
-.modal-header, .modal-footer, .modal-body{
-    border: 1px solid green;
-    color: white;
-    font-weight: bold;
-    font-style: italic;
-}
-a{
-    text-decoration: none;
-}
-.card:hover{
-    box-shadow: 0px 0px 5px green;
-}
-p{
+.szoveg{
     color: white;
 }
-.blog-img{
-    border: 5px solid #A04809;
-    height: 237px;
-    width: 358px;
-}
-.fekete{
-    color: black;
+.szurke{
+    color: grey;
 }
 .kozep{
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ___
-(   )
- | |
- | |
- | |
- ( )
-  ˘
-
-  |
-  |
-  |
-  |
-
-
-O   O*/
