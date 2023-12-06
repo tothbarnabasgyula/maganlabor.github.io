@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Bejelentkezés</title>
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-header">
+      <h2>Bejelentkezés</h2>
+    </div>
+    <form id="loginForm">
+      <div class="input-group">
+        <input type="text" id="username" name="username" placeholder="Felhasználónév" required>
+      </div>
+      <div class="input-group">
+        <input type="password" id="password" name="password" placeholder="Jelszó" required>
+      </div>
+      <div class="input-group">
+        <input type="beteg-id" id="beteg-id" name="beteg-id" placeholder="Beteg-azonosító" required>
+      </div>
+      <button type="button" onclick="validateLogin()">Bejelentkezés</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
