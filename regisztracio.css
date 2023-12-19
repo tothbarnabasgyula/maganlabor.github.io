@@ -51,4 +51,53 @@ body {
   button:hover {
     background-color: #0056b3;
   }
+  #logo{
+    width: 70px;
+    height: 70px;
+  }
+  nav{
+    background-image: linear-gradient(lightblue, rgb(81, 81, 252));
+  }
+
+
+
+  .nyitvatartashoz * {
+    margin: 5px 0; /* Adjust the values to your preference */
+    margin-top: -10px;
+  }
+  footer{
+    
+    background-image: linear-gradient(lightblue, rgb(81, 81, 252));
+    color: white;
+    
+    
+  }
+  .ikon{
+    width: 25px;
+  }
   
+  .nyitvatartastext{
+    font-size: 20px; 
+    line-height: 1.5;
+  }
+  .kozep2{
+    margin: auto;
+  }
+  
+  .kartyanyitva{
+    background-color: #007bff 20%;
+    background-color: #ADD8E6 100%;
+    border: #007bff 2px solid;
+  }
+  .footerszoveg{
+    font-size: 24px;
+  }
+  .nyitvaszin{
+    background-color: rgba(81, 81, 252, 0.2);
+    background-color: rgba(173, 216, 230, 1);
+    border: rgba(81, 81, 252, 0.2) 2px solid;
+  }
+  
+  .kozep{
+    text-align: center;
+  }
