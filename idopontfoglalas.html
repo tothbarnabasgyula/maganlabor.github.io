@@ -11,8 +11,30 @@
 
   <title>Időpontfoglalás</title>
 </head>
+
 <body>
-  <div class="booking-container">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="kepek/svglogo.svg" alt="logo" id="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="#">Főoldal</a>
+            <a class="nav-link" href="#">Szolgáltatásaink</a>
+            <a class="nav-link active" href="idopontfoglalas.html">Időpontfoglalás</a>
+            <a class="nav-link" href="#">Orvosaink</a>
+            <a class="nav-link" href="regisztraciosLap.html">Regisztráció</a>
+            <a class="nav-link" href="bejelentkezesiLap.html">Bejelentkezés</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div id="naptar">
+<div class="booking-container">
     <h2>Időpontfoglalás</h2>
     <div id="calendar"></div>
     <form id="bookingForm">
@@ -25,7 +47,65 @@
       <button type="button" onclick="validateBooking()">Időpont foglalás</button>
     </form>
   </div>
-  <script src="naptar.js"></script>
+
+  </div>
+  
+
+
+
+  
+  <footer class="mt-auto container-fluid footerszoveg fixed-bottom">
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-12 kozep">
+          <h3 style="font-size: 32px;">Elérhetőségek</h3>
+            <ul class="elerhetotext" style="list-style-type:none; padding: 0; margin: 0;">
+              <li><img src="img/ikonok/email.svg" class="ikon">6900 Makó Posta utca 4-6</li>
+              <li><img src="img/ikonok/kukac.svg" class="ikon">healthcenter@gmail.com</li>
+              <li><img src="img/ikonok/telefon.svg" class="ikon">+36 30 555 4535</li>
+            </ul>
+        </div>
+        <div class="col-lg-6 col-md-4 col-sm-12 kozep">
+          <br>
+              <ul class="hosszuszoveg" style="list-style-type:none; padding: 0; margin: 0;">
+                <li>Sajnos a covid-19 miatt lehetséges, hogy oldalunkon esetleg hiány keletkezik vagy az időpontfoglalással nehézségekbe ütközik. Minden tőlünk telhetőt megteszünk, hogy megoldjuk a problémát.</li>
+                <li>Minden jog fenntartva! © 2022-2023 Health Center Kft.</li>
+              </ul>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 kozep">
+            <div class="card text-center kozep2 nyitvaszin" style="width: 18rem;">
+                <div class="card-body nyitvatartashoz">
+                    <h3 class="card-title">Nyitvatartás</h3>
+                    <h6 class="card-text nyitvatartastext">
+                        Hétfő:
+                        8:00-20:00
+                    </h6>
+                    <h6 class="card-text nyitvatartastext">
+                        Kedd:
+                        6:00-18:00
+                    </h6>
+                    <h6 class="card-text nyitvatartastext">
+                        Szerda:
+                        8:00-20:00
+                    </h6>
+                    <h6 class="card-text nyitvatartastext">
+                        Csütörtök:
+                        6:00-18:00
+                    </h6>
+                    <h6 class="card-text nyitvatartastext">
+                        Péntek:
+                        8:00-20:00
+                    </h6>
+                    <h6 class="card-text nyitvatartastext">
+                        Szombat-Vasárnap:
+                        zárva
+                    </h6>
+                
+                </div>
+            </div>
+        </div>
+      </div>
+</footer>
+<script src="naptar.js"></script>
 </body>
 </html>
 

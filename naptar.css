@@ -1,12 +1,14 @@
 body {
-  display: flex;
+  /*display: flex;*/
   align-items: center;
   justify-content: center;
-  height: 100vh;
+ /* height: 100vh;*/
   margin: 0;
   font-family: 'Arial', sans-serif;
   background-image: url(kepek/hatter.jpg);
   background-size: cover;
+  min-height: 100vh;
+  margin-top: 150px;
 }
 
 .booking-container {
@@ -16,11 +18,13 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   width: 600px;
   text-align: center;
+ margin: auto;
 }
 
 form {
   display: flex;
   flex-direction: column;
+ 
 }
 
 label {
@@ -69,4 +73,58 @@ button:hover {
   background-color: #007bff;
   color: #fff;
 }
+#logo{
+  width: 70px;
+  height: 70px;
+}
+nav{
+  background-image: linear-gradient(lightblue, rgb(81, 81, 252));
+}
+#naptar
+{
+  padding-top: 110px;
+}
 
+
+
+
+.nyitvatartashoz * {
+  margin: 5px 0; /* Adjust the values to your preference */
+  margin-top: -10px;
+}
+footer{
+  
+  background-image: linear-gradient(lightblue, rgb(81, 81, 252));
+  color: white;
+  
+  
+}
+.ikon{
+  width: 25px;
+}
+
+.nyitvatartastext{
+  font-size: 20px; 
+  line-height: 1.5;
+}
+.kozep2{
+  margin: auto;
+}
+
+.kartyanyitva{
+  background-color: #007bff 20%;
+  background-color: #ADD8E6 100%;
+  border: #007bff 2px solid;
+}
+.footerszoveg{
+  font-size: 24px;
+}
+.nyitvaszin{
+  background-color: rgba(81, 81, 252, 0.2);
+  background-color: rgba(173, 216, 230, 1);
+  border: rgba(81, 81, 252, 0.2) 2px solid;
+}
+
+.kozep{
+  text-align: center;
+}

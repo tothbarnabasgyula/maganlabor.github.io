@@ -3,8 +3,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    margin: 0;
+   /* height: 100vh;*/
+    margin-top: 270px;
     background-image: url('kepek/hatter.jpg');
     background-size: cover;
     font-family: 'Arial', sans-serif;
@@ -16,6 +16,7 @@
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     width: 500px;
+    margin: auto;
   }
   
   .login-header {
@@ -42,7 +43,6 @@
     text-align: center;
     
   }
-  
   button {
     padding: 15px;
     background-color: #007bff;
@@ -56,4 +56,49 @@
   button:hover {
     background-color: #0056b3;
   }
-  
+  #logo{
+    width: 70px;
+    height: 70px;
+  }
+  nav{
+    background-image: linear-gradient(lightblue, rgb(81, 81, 252));
+  }
+  .nyitvatartashoz * {
+    margin: 5px 0; /* Adjust the values to your preference */
+    margin-top: -10px;
+}
+footer{
+    
+    background-image: linear-gradient(lightblue, rgb(81, 81, 252));
+    color: white;
+    margin-top: auto;
+}
+.ikon{
+    width: 25px;
+}
+
+.nyitvatartastext{
+    font-size: 20px; 
+    line-height: 1.5;
+}
+.kozep2{
+    margin: auto;
+}
+
+.kartyanyitva{
+    background-color: #007bff 20%;
+    background-color: #ADD8E6 100%;
+    border: #007bff 2px solid;
+}
+.footerszoveg{
+    font-size: 24px;
+}
+.nyitvaszin{
+    background-color: rgba(81, 81, 252, 0.2);
+    background-color: rgba(173, 216, 230, 1);
+    border: rgba(81, 81, 252, 0.2) 2px solid;
+}
+
+.kozep{
+    text-align: center;
+}
