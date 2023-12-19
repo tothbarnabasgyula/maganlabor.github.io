@@ -44,3 +44,14 @@ footer li{
 .logo{
     height: 40px;
 }
+.kezelesek{
+height: 450px;
+width: 700px;
+
+}
+.kezelesekbanner{
+    background-image: url(../img/kezelesekb.jpg);
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+}
